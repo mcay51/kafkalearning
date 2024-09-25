@@ -5,7 +5,7 @@ FROM openjdk:17-jdk-slim
 WORKDIR /app
 
 # 3. Maven build sonucu oluşturulmuş JAR dosyasını çalışma dizinine kopyala
-COPY target/blog-service.jar /app/blog-service.jar
+COPY target/*.jar /app/blog-service.jar
 
 # 4. Uygulama başlatılıyor
 ENTRYPOINT ["java", "-jar", "blog-service.jar"]

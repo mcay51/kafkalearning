@@ -5,7 +5,7 @@ FROM openjdk:17-jdk-slim
 WORKDIR /app
 
 # 3. Maven build sonucu oluşturulmuş JAR dosyasını çalışma dizinine kopyala
-COPY target/notification-service.jar /app/notification-service.jar
+COPY target/*.jar /app/notification-service.jar
 
 # 4. Uygulama başlatılıyor
 ENTRYPOINT ["java", "-jar", "notification-service.jar"]
