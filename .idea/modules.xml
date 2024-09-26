@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/blog-service/blog-service.iml" filepath="$PROJECT_DIR$/blog-service/blog-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blog-service-old/blog-service-old.iml" filepath="$PROJECT_DIR$/blog-service-old/blog-service-old.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/kafkalearning.iml" filepath="$PROJECT_DIR$/.idea/kafkalearning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/notification-service-old/notification-service-old.iml" filepath="$PROJECT_DIR$/notification-service-old/notification-service-old.iml" />
+    </modules>
+  </component>
+</project>
